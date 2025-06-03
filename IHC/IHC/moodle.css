@@ -1,0 +1,30 @@
+
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+    header { background: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .logo { font-weight: bold; font-size: 20px; color: #003366; }
+    nav a { margin: 0 12px; text-decoration: none; color: #003366; font-weight: bold; }
+    .search-bar input { padding: 6px; }
+    .search-bar button { padding: 6px 10px; background: #ffc107; border: none; cursor: pointer; font-weight: bold; }
+    .user { color: #003366; font-weight: bold; }
+
+    main { padding: 40px 20px; text-align: center; }
+    main h2 { color: #003366; margin-bottom: 30px; }
+
+    .moodle-area { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-bottom: 40px; }
+    .box { background: white; padding: 20px; width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); text-align: left; }
+    .box h3 { margin-top: 0; font-size: 16px; color: white; background: #003366; padding: 10px; border-radius: 6px 6px 0 0; }
+    .box ul { list-style: none; padding: 10px; margin: 0; background: #fff; border-radius: 0 0 6px 6px; }
+    .box ul li { margin: 6px 0; font-size: 14px; }
+    .aviso { background: #ffc107; color: #003366; font-weight: bold; padding: 10px; border-radius: 6px; margin-top: 10px; font-size: 13px; }
+
+    .recursos { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .recurso-card { background: white; padding: 20px; width: 280px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); text-align: left; }
+    .recurso-card h4 { margin: 0 0 10px; color: #003366; }
+    .recurso-card p { margin: 0; font-size: 14px; color: #444; }
+
+    footer { background: #003366; color: white; display: flex; flex-wrap: wrap; justify-content: space-around; padding: 30px 20px; margin-top: 50px; }
+    .footer-section { max-width: 300px; }
+    .footer-section h4 { color: #ffc107; margin-bottom: 10px; }
+    .footer-section p, .footer-section a { color: white; font-size: 14px; text-decoration: none; }
+    .footer-bottom { text-align: center; background: #002244; color: #ccc; padding: 10px; font-size: 13px; }
+ 

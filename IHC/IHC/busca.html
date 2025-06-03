@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIPEAD - Busca</title>
+    <link rel="stylesheet" href="busca.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CIPEAD/UFPR</div>
+    <div class="search-box">
+      <input type="text" value="curso de matemática">
+      <button>Buscar</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Filtrar por</h3>
+      <label><input type="checkbox"> Cursos</label>
+      <label><input type="checkbox"> Editais</label>
+      <label><input type="checkbox"> Notícias</label>
+
+      <h3>Data</h3>
+      <input type="date">
+
+      <h3>Categoria</h3>
+      <select>
+        <option>Todos</option>
+        <option>Matemática</option>
+        <option>Tecnologia</option>
+      </select>
+    </aside>
+
+    <main class="results">
+      <div class="card">
+        <h4>Curso de Matemática Básica</h4>
+        <p>Duis autem disconotis es ultravidero de cometéc fundamentades de prouaci numeritericos, cotdo tempories de ametostarios.</p>
+        <span class="tag">Curso</span>
+      </div>
+      <div class="card">
+        <h4>Curso de Matemática Financeira</h4>
+        <p>Aduvoq, câums trimtenlapéotis, contributos, inverto es adqu meritos de omnetollos.</p>
+        <span class="tag">Curso</span>
+      </div>
+      <div class="card">
+        <h4>Curso de Matemática Aplicada</h4>
+        <p>Aliquos cumque adapaemiáris ut molestía depemiás deacopilámás.</p>
+        <span class="tag">Curso</span>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+</html>

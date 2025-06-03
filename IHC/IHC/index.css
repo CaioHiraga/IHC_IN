@@ -1,0 +1,30 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 10px 40px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .logo { font-weight: bold; color: #003366; font-size: 18px; }
+    nav a { margin: 0 12px; text-decoration: none; color: #003366; font-weight: bold; }
+    .search-bar input { padding: 5px; }
+    .search-bar button { background: #ffc107; border: none; padding: 6px 10px; font-weight: bold; cursor: pointer; }
+    .user { color: #003366; font-weight: bold; }
+
+    .banner { background-color: #003366; color: white; text-align: center; padding: 60px 20px; }
+    .banner h1 { margin: 0; font-size: 28px; }
+    .banner p { font-size: 16px; margin: 10px 0; }
+    .banner a { display: inline-block; margin-top: 15px; background: #ffc107; padding: 12px 20px; color: #003366; font-weight: bold; text-decoration: none; border-radius: 4px; }
+
+    .cursos { text-align: center; padding: 40px 20px; background: #f8f9fa; }
+    .cursos h2 { color: #003366; margin-bottom: 30px; }
+    .card-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .card { background: white; width: 280px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); text-align: left; }
+    .tag { display: inline-block; padding: 4px 10px; color: white; font-weight: bold; border-radius: 4px; font-size: 12px; margin-bottom: 8px; }
+    .grad { background: #ffc107; color: black; }
+    .pos { background: #003366; }
+    .extensao { background: #002244; }
+    .card h3 { margin: 10px 0 5px; font-size: 16px; color: #003366; }
+    .card p { margin: 0 0 10px; font-size: 14px; color: #444; }
+    .card a { color: #003366; font-weight: bold; text-decoration: none; font-size: 14px; }
+
+    footer { background: #003366; color: white; padding: 40px 20px; display: flex; flex-wrap: wrap; justify-content: space-around; }
+    .footer-section { max-width: 300px; margin: 10px; }
+    .footer-section h4 { margin-bottom: 10px; color: #ffc107; }
+    .footer-section p, .footer-section a { font-size: 14px; color: white; text-decoration: none; margin: 2px 0; display: block; }
+    .footer-bottom { text-align: center; background: #002244; color: #ccc; padding: 10px; font-size: 13px; }

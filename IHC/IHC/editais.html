@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editais - CIPEAD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="editais.css">
+</head>
+<body>
+  <header>
+  <div class="top-bar">
+    <div class="logo">CIPEAD</div>
+    <div class="search-area">
+      <input type="text" placeholder="Buscar..." />
+      <button>Buscar</button>
+    </div>
+    <div class="user">Olá, Visitante</div>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html">Início</a>
+    <a href="busca.html">Cursos</a>
+    <a href="editais.html" class="ativo">Editais</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+
+  <main>
+    <h2>Editais</h2>
+
+    <form class="filtros">
+      <div>
+        <h3>Tipo</h3>
+        <label><input type="checkbox" name="tipo" value="processo"> Processos Seletivos</label>
+        <label><input type="checkbox" name="tipo" value="bolsa"> Bolsas</label>
+        <label><input type="checkbox" name="tipo" value="capacitacao"> Capacitações</label>
+      </div>
+      <div>
+        <h3>Status</h3>
+        <label><input type="checkbox" name="status" value="aberto" checked> Abertos</label>
+        <label><input type="checkbox" name="status" value="encerrado"> Encerrados</label>
+      </div>
+      <div>
+        <h3>Data</h3>
+        <input type="date">
+      </div>
+    </form>
+
+    <div class="editais-container">
+      <div class="edital">
+        <h4>Edital de Capacitação 1</h4>
+        <p><strong>Publicado em:</strong> 25/04/2025</p>
+        <p class="categoria">Capacitação</p>
+        <p>Curso de capacitação para professores e tutores em metodologias ativas para educação a distância.</p>
+        <a href="#">Acessar</a>
+      </div>
+
+      <div class="edital">
+        <h4>Edital de Bolsa 1</h4>
+        <p><strong>Publicado em:</strong> 22/04/2025</p>
+        <p class="categoria">Bolsa</p>
+        <p>Seleção de bolsistas para atuação como tutores em cursos de graduação a distância.</p>
+        <a href="#">Acessar</a>
+      </div>
+
+      <div class="edital">
+        <h4>Edital de Processo Seletivo 1</h4>
+        <p><strong>Publicado em:</strong> 18/04/2025</p>
+        <p class="categoria">Processo Seletivo</p>
+        <p>Seleção de estudantes para cursos de graduação na modalidade a distância.</p>
+        <a href="#">Acessar</a>
+      </div>
+
+      <div class="edital">
+        <h4>Edital de Curso de Capacitação 2</h4>
+        <p><strong>Publicado em:</strong> 18/03/2025</p>
+        <p class="categoria">Capacitação</p>
+        <p>Capacitação continuada para formação docente com foco em práticas digitais.</p>
+        <a href="#">Acessar</a>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+
+</body>
+</html>

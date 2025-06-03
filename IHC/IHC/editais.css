@@ -1,0 +1,133 @@
+main { max-width: 850px; margin: auto; padding: 20px; }
+    h2 { color: #003366; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+
+    .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #003366;
+}
+
+.search-area {
+  flex: 1;
+  max-width: 420px;
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.search-area input {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-area button {
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.user {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Menu principal de navegação */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 2px solid #eee;
+  background-color: #ffffff;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.main-nav a.ativo {
+  border-bottom: 2px solid #003366;
+}
+    .filtros {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+
+    .filtros h3 {
+      color: #003366;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .filtros label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .filtros input[type="date"] {
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .editais-container {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .edital {
+      margin-bottom: 30px;
+    }
+
+    .edital h4 {
+      margin: 0 0 6px;
+      font-size: 16px;
+      color: #003366;
+    }
+
+    .edital p {
+      font-size: 14px;
+      margin: 3px 0;
+      color: #333;
+    }
+
+    .edital .categoria {
+      font-weight: bold;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .edital a {
+      display: inline-block;
+      margin-top: 6px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #0056b3;
+      text-decoration: underline;
+    }
